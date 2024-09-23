@@ -58,6 +58,13 @@ with st.expander("Web App 🌐"):
   st.subheader("Eye disease classification")
   st.write("The Web App helps predict, from the image, whether or not the user has cataract")
 
+with st.expander("How to use"):
+  st.write("1. Scroll down to the 2 tabs that allow you to upload an image or take a picture if your eye")
+  st.write("2. Click on the method that you want to use")
+  st.write("3. For uploading an image, click on the 'Browse files' button that is present and choose the fundus image you want to upload")
+  st.write("4. For taking a picture, position your eye so that the eye is within the camera frame and click 'Take photo'")
+  st.write("5. Wait for the model to detect the cataracts, and scroll down for the diagnosis")
+
 tab1, tab2 = st.tabs(["Image Upload 👁️", "Camera Upload 📷"])
 with tab1:
   image = st.file_uploader(label="Upload an image",accept_multiple_files=False, help="Upload an image to classify them")
