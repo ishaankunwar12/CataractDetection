@@ -27,7 +27,7 @@ This app is a **cataract detection** software meant to identify cataracts based 
 5. Three ML models (KNN, RandomForrest, and MLP) were trained on the train dataset and validated on the validation dataset. Since they all yielded the same accuracy (96.5%) in detecting cataracts, I chose the MLP model since both KNN and RandomForrest have flaws that MLP does not.
 6. Using the streamlit package, I programmed my web page on google collab and then imported it to Github and hosted it on the streamlit website, leading to the creation of my app.
 
-(Put in a graphic later)
+(Put in a graphic later).
 
 
 
