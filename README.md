@@ -3,7 +3,7 @@ This project is about identifying cataracts from fundus images of the eye
 
 <img src="images/2800_left.jpg" width="300" />
 
-## Table of Contents :closed_book:
+## :closed_book: Table of Contents :closed_book:
 - [Description](#-description)
 - [App Creation Process](#-app-creation-process)
 - [How to access](#-how-to-access)
@@ -12,13 +12,13 @@ This project is about identifying cataracts from fundus images of the eye
 - [Contact Us](#-contact-us)
 
 
-## Description
+## :iphone: Description :iphone:
 
 This app is a **cataract detection** software meant to identify cataracts based on fundus images uploaded to the app. The purpose of the app is reduce the workload of ophthalmologists, who currently must hand-label fundus images of eye lens as "Cataract" or "Normal." This app will greatly aid rural areas, where there is often only **1** ophthalmologist per **100,000** patients! This app would allow ophthalmologists, or patients themselves, to use an **ophthalmoscope**, which is attachable to a phone camera, to take a picture of patients' eyes. These pictures would then be uploaded to the app, which will return a diagnosis as well as the probability of the accuracy of the diagnosis.
 
 
 
-## App Creation Process
+## App Creation Process 
 
 1. The dataset was downloaded from [Kaggle](https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k), which is a website that offers free online datasets. The dataset contains fundus images that depict eyes that are affected by a disease and images that depict eyes not affected by a disease. There were five diseases including cataracts within the dataset 
 2. Using google collab, the dataset was filtered to only include cataract images and normal images through pandas. Following this, the number of normal images was reduced in order to make the number of cataract images equal to the number of normal images to ensure that the model would not be biased towards any diagnosis.
@@ -33,21 +33,21 @@ This app is a **cataract detection** software meant to identify cataracts based 
 
 
 
-## How to Access
+## :door: How to Access :door:
 1. Download all the packages in requirements.txt.
 2. Purchase an [ophthalmoscope](https://www.amazon.in/Welch-iExaminer-Adapter-PanOptic-Ophthalmoscope/dp/B07Z4MQSPT) to take fundus images of people's eyes
 3. 
 
 
 
-## Future Endeavors
+## :bulb: Future Endeavors :bulb:
 
 - I hope to expand this app to accept other image types, such as smartphone images and slit lamp images, in order to make the app more flexible
 - I hope to expand this app to detect other eye diseases, such as glaucoma
 - I also aim to find an alternative to the ophthalmoscope required to take the fundus images for this app as the tool can be expensive and hard to obtain.
 
-## Feedback
+## :speech_balloon: Feedback :speech_balloon:
 Feedback is always appreciated, and if you want to leave feedback on the web app, please fill out the form below.
 
-## Contact Us
+## :phone: Contact Us :phone:
 
