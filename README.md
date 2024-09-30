@@ -34,9 +34,8 @@ This app is a **cataract detection** software meant to identify cataracts based 
 
 
 ## :door: How to Access :door:
-1. Download all the packages in requirements.txt.
-2. Purchase an [ophthalmoscope](https://www.amazon.in/Welch-iExaminer-Adapter-PanOptic-Ophthalmoscope/dp/B07Z4MQSPT) to take fundus images of people's eyes
-3. 
+Here is the link to my web app:
+[Web App](https://cataractdetection-7uyam4zpqgsfcopp6yscyn.streamlit.app/)
 
 
 
