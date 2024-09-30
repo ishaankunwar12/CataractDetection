@@ -34,7 +34,7 @@ This app is a **cataract detection** software meant to identify cataracts based 
 
 
 ## How to Access
-
+1. Download all
 
 
 
