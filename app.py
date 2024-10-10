@@ -1,4 +1,4 @@
-
+%%writefile app.py
 
 import streamlit as st
 import tensorflow as tf
@@ -42,10 +42,14 @@ def featurization(image_path, model):
   predictions = model.predict(img_preprocessed)
   return predictions
 
+
 convext_featurized_model = get_convext_model()
-cataract_model = load_sklearn_models("ConvNexXtlarge_MLP_best_model")
+cataract_model = load_sklearn_models("/content/drive/MyDrive/1:1_Ishaan/Results/MLP/ConvNexXtlarge_MLP_best_model")
 
+pages = {"Home":[st.Page("home.py", title ="Create your account")], "About us": [st.Page("about_us.py", title = "About Us")], "How to Use":[st.Page("how_to_use.py", title ="How to Use")], "Our Impact":[st.Page("our_impact.py", title ="Our Impact")], "Contact Us": [st.Page("contact_us.py", title ="Contact Us")]}
 
+pg = st.navigation(pages)
+pg.run()
 
 st.title("Cataract Image Predictor")
 
