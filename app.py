@@ -44,7 +44,7 @@ def featurization(image_path, model):
 
 
 convext_featurized_model = get_convext_model()
-cataract_model = load_sklearn_models("/content/drive/MyDrive/1:1_Ishaan/Results/MLP/ConvNexXtlarge_MLP_best_model")
+cataract_model = load_sklearn_models("ConvNexXtlarge_MLP_best_model")
 
 
 
